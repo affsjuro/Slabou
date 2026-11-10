@@ -8,12 +8,12 @@ local Lighting = game:GetService("Lighting")
 local localPlayer = Players.LocalPlayer
 
 -- Remove interface anterior se houver
-if CoreGui:FindFirstChild("HellszPanel") then
+if CoreGui:FindFirstChild("ToshiPainel") then
     CoreGui.HellszPanel:Destroy()
 end
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "HellszPanel"
+ScreenGui.Name = "ToshiPainel"
 ScreenGui.Parent = CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
